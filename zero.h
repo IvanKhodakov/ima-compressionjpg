@@ -27,6 +27,8 @@
   along with this program. If not, see <https://www.gnu.org/licenses/>.
 
   ----------------------------------------------------------------------------*/
+#include <stdlib.h>
+#include <stddef.h>
 
 #ifndef ZERO_H
 #define ZERO_H
