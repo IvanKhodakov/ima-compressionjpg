@@ -171,7 +171,7 @@ void compute_grid_votes_per_pixel(double * image, int * votes, int X, int Y) {
             cos_t[k][l] = cos((2.0 * k + 1.0) * l * M_PI / 16.0);
 
     /* initialize zero to 0 with calloc */
-    zeros = (int *) xcalloc(X * Y, sizeof(int));
+    zeros = (int *) xcalloc(X * Y, sizeof(int));   
 
     /* initialize votes to -1 */
     for (int n=0; n<X*Y; n++) votes[n] = -1;
